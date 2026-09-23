@@ -18,7 +18,7 @@ against what actually exists in the repository right now, not against intent.
 | Item | Status | Evidence |
 |---|---|---|
 | Complete C source code | **PASS** | `src/` — 6 modules, builds clean under `-Wall -Wextra -Wpedantic` |
-| GitHub repository + link | **NEEDS FIX** | Local git repo exists and has commits; no remote configured, nothing pushed yet |
+| GitHub repository + link | **PASS** | https://github.com/ezuzu11/library-lending-chain (public, pushed) |
 | Demo video (3–5 min) | **NEEDS FIX** | Not recorded. Script ready — see §3 below |
 | Technical report | **PASS** | `docs/REPORT.md` |
 | README (compile/build/run/deps) | **PASS** | `README.md` |
@@ -26,7 +26,7 @@ against what actually exists in the repository right now, not against intent.
 | System design diagram | **PASS** | `docs/ARCHITECTURE.md` and `docs/REPORT.md` §5 both include the data-flow diagram |
 | Challenges/solutions | **PASS** | `docs/REPORT.md` §18 |
 
-**Overall: NEEDS FIX** — three concrete, bounded gaps (push to GitHub, record
+**Overall: NEEDS FIX** — two concrete, bounded gaps left (record the demo
 video, capture image screenshots), everything else complete.
 
 ### B. Technical Correctness and Code Quality (4 pts)
@@ -69,11 +69,12 @@ produce.
 
 ## 2. Overall status
 
-**Not complete.** Three items remain, all in the deliverables layer, none in
-the implementation: push the repo to GitHub, record the demo video, capture
-image screenshots (optional if the video is submitted — check with the
-assignment's exact submission portal requirements). Per Standing Rule 6, this
-is stated as three named gaps, not as a percentage or a numeric score.
+**Not complete.** Two items remain, both in the deliverables layer, none in
+the implementation: record the demo video, and capture image screenshots
+(optional if the video is submitted — check with the assignment's exact
+submission portal requirements). The GitHub repo is live at
+https://github.com/ezuzu11/library-lending-chain. Per Standing Rule 6, this
+is stated as two named gaps, not as a percentage or a numeric score.
 
 ## 3. Demo script (3–5 minutes)
 
@@ -158,12 +159,9 @@ structure, troubleshooting — all present in `README.md`. **Complete.**
 
 ## 10. Remaining issues
 
-1. **No GitHub remote / push.** Repo is local-only. Needs the user to either
-   provide a target remote or approve creating one, since pushing code is a
-   visible, shared-state action this session should not take unilaterally.
-2. **No demo video.** Script is ready (§3); recording requires screen-capture
+1. **No demo video.** Script is ready (§3); recording requires screen-capture
    tooling this session doesn't have.
-3. **No rendered image screenshots.** Terminal transcripts exist in the
+2. **No rendered image screenshots.** Terminal transcripts exist in the
    report as text; if the submission format specifically wants image files
    rather than accepting the video as sufficient, these still need capturing.
 

@@ -100,7 +100,7 @@ Naming note: the assignment's block table uses `Member_name` and calls this an "
 
 ## Deliverables (Compliance criterion, 4 pts)
 
-- [ ] D1 Complete C source code, pushed to a GitHub repo, link included — **code complete, not yet pushed** (no remote configured)
+- [x] D1 Complete C source code, pushed to a GitHub repo, link included — https://github.com/ezuzu11/library-lending-chain
 - [ ] D2 Demo video, 3–5 min — **not recorded** (script ready, see `docs/REPORT.md`)
 - [x] D3 Technical report — `docs/REPORT.md`
 - [x] D4 README — `README.md`
@@ -115,4 +115,4 @@ Naming note: the assignment's block table uses `Member_name` and calls this an "
 
 ## Status
 
-Phase 8 (testing) is complete: 44/44 automated tests pass (`make test`), covering every R1–R11 item above via test, inspection, or doc reference as marked. Remaining gaps are the two Deliverables items (D1 GitHub push, D2 demo video) — both require action outside this checklist (a remote push and a screen recording), tracked in the project plan, not silently dropped.
+Phase 8 (testing) is complete: 44/44 automated tests pass (`make test`), covering every R1–R11 item above via test, inspection, or doc reference as marked. Remaining gap is D2, the demo video — recording requires screen-capture tooling outside this session, tracked in the project plan, not silently dropped.
