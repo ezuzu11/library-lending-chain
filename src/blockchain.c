@@ -210,7 +210,7 @@ ChainValidation blockchain_validate(const Blockchain *chain, EVP_PKEY *pub_key) 
             return result;
         }
 
-        strcpy(expected_prev_hash, b->hash);
+        snprintf(expected_prev_hash, HASH_HEX_LEN, "%s", b->hash);
         expected_index++;
     }
 

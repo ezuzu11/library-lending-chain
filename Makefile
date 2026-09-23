@@ -9,7 +9,7 @@ BIN     := lending_tracker
 SRCS := $(wildcard $(SRC_DIR)/*.c)
 OBJS := $(patsubst $(SRC_DIR)/%.c,$(BUILD_DIR)/%.o,$(SRCS))
 
-.PHONY: all clean debug asan run
+.PHONY: all clean debug asan run test
 
 all: $(BIN)
 
@@ -28,6 +28,11 @@ asan: clean all
 
 run: $(BIN)
 	./$(BIN)
+
+# Phase 8 test matrix (registry, borrow, return, blockchain, cryptography,
+# tampering, memory safety) — see tests/run_tests.sh.
+test:
+	bash tests/run_tests.sh
 
 clean:
 	rm -rf $(BUILD_DIR) $(BIN)
